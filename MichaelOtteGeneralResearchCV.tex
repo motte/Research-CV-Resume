@@ -1,0 +1,169 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[a4paper, 12pt]{article}
+\usepackage{enumitem} % for leftmargin of itemize
+\usepackage{fancyhdr} % allows fancy headers
+\usepackage{lastpage} % get the last page number
+\usepackage{sectsty} % for section styling like header font size
+
+% LAYOUT %
+% Font
+%% Set \header command
+\makeatletter
+\newcommand\header{\@setfontsize\Huge{16}{16}} % for my name
+\makeatother
+
+%% Edit \section font size
+\sectionfont{\fontsize{12}{12}\selectfont}
+
+% Margins
+\usepackage[margin=1in]{geometry} % for page margin
+
+% Indentation
+\setlength\parindent{.5in}
+
+% Page Numbering
+%\pagenumbering{gobble}
+
+% Table
+\setlength{\arrayrulewidth}{0mm}
+\setlength{\tabcolsep}{1pt}
+
+
+% DOCUMENT %
+\begin{document}
+\thispagestyle{empty}
+
+\pagestyle{fancy}
+\rhead{Michael L. Otte, Page \thepage { of} \pageref{LastPage}}
+
+\noindent
+\textbf{\header Michael L. Otte}
+\vspace{-3mm}
+
+\noindent
+\line(1,0){452}\\[1mm]
+\begin{tabular}{ |p{2.9in}|p{3.75in}| }
+% & {\sl LinkedIn:} www.linkedin.com/in/michaelotte13 \\[0mm]
+{\sl Email:} MichaelOtte1@gmail.com & {\sl Cell:} (831) 704-6563 \\[3mm]
+\end{tabular}\\[-3mm]
+
+\noindent Freenome, Inc.\\
+A Computational Genomics, Non-Invasive Cancer Diagnostics, and Liquid Biopsy Co.\\
+201 Gateway Blvd\\
+South San Francisco, CA 94080
+
+\section*{CURRENT POSITION}
+\vspace{-3mm}
+{\bf Freenome, Inc.}\hfill South San Francisco, CA\\
+Senior Software Engineer\hfill September 2015-Present
+
+\section*{EDUCATION}
+\vspace{-3mm}
+{\bf Dartmouth College}, Hanover, NH \hfill June 2013 \\[-7mm]
+\begin{itemize}[leftmargin=5mm] 
+\itemsep -1mm
+	\item[] {\sl B.A.} {Socio-Cultural Anthropology (Honors Student with Research Grant)}
+	\item[] {\sl Coursework and Research completed for degree in} {Biology, Immunology Concentration}
+	\item[] {\sl Coursework completed for} {Pre-Medicine Requirements}
+\end{itemize}
+
+\section*{GRANTS AND AWARDS}
+\vspace{-3mm}
+{\bf Honors Citation in Anthropology, Professor James Igoe}\hfill August 2012\\
+Dartmouth College\\[2mm]
+{\bf C. Everett Koop Scholar}\hfill November 2011\\
+Dartmouth Center on Addiction, Recovery \& Education\\[2mm]
+{\bf Honors Citation in Anthropology, Chair Dale Eickelman}\hfill August 2011\\
+Dartmouth College\\[2mm]
+{\bf Howard Hughes Medical Institute Scholar Research Grant}\hfill July 2011\\
+The Howard Hughes Medical Institute\\[2mm]
+{\bf Claire Garber Goodman Research Grant}\hfill May 2011\\
+Dartmouth College\\[2mm]
+{\bf Dartmouth Keenan Family Scholar}\hfill January 2009\\
+Dartmouth College
+
+\section*{RESEARCH EXPERIENCE}
+\vspace{-3mm}
+{\bf Freenome}{, South San Francisco, CA}\hfill {\bf September 2015-Present \\}
+{\sl CTO, VP of Product, Software Engineer - freenome.com} \\[-7mm]
+\begin{itemize}[leftmargin=5mm]
+\itemsep -2pt
+	\item Conducted research in classification and biomarker discovery in cancer research via cloud-based computing of cell-free DNA (cfDNA).
+	\item Heavily involved in high-throughput bioinformatics work on next-generation sequencing data from raw read data to analysis.
+	\item Developed an in-house next-generation sequencing laboratory information management system (LIMS).
+	\item Developed a drag-and-drop genome browser for genetic variant analysis.\\
+	\item Co-authored grants (National Science Foundation) and was involved in manuscript writing on cell-free DNA analysis.
+	\item Conducted academic collaborations with labs from Massachusetts General Hospital, UCSD, UCSF, and others.
+\end{itemize}
+                 
+\noindent
+{\bf Dartmouth-Hitchcock Medical Clinic}{, Lebanon, NH}\hfill {\bf May 2011-August 2013 \\}
+{\sl Undergraduate Researcher - geiselmed.dartmouth.edu/rigby/}\\
+Immunological mechanisms and effects of Rituximab on B cell depletion\\[-6mm]
+\begin{itemize}[leftmargin=5mm] 
+\itemsep -2pt
+	\item Studied the effects of rituximab (a.k.a. rituxan) in depletion of B cells via antibody-mediated cell shaving and complement dependent cell cytotoxicity
+	\item Performed over 100 laser flowcytometry experiments through the entire process from experimental design to analysis and QA/QC
+	\item Techniques included assay prep, PBMC and sera isolation from whole blood, cell carrying, basic microscopy and staining (e.g. ethidium bromide staining), and laser flow cytometry
+	\item Resulting paper: {\sl Induction of interleukin-6 production by rituximab in human B cells.} doi: 10.1002/art.38798 (not a listed co-author)
+\end{itemize}
+
+\noindent
+{\bf Dartmouth College}{, Hanover, NH}\hfill {\bf May 2011-June 2013 \\}
+{\sl Undergraduate Researcher - Ethnographic Research}\\
+The Way of the True Pilgrim: Finding Meaning on the Camino de Santiago\\[-6mm]
+\begin{itemize}[leftmargin=5mm] 
+\itemsep -2pt
+	\item Conducted ethnographic field work for 3 months, hiking about 1,000 miles of the St. James Way pilgrimage road in France and Spain.
+	\item Completed literature research on topic of pilgrimage in English and Spanish.
+	\item Studied the group effects of pilgrims on the "Camino de Santiago" (the St. James Way), a historically, Roman Catholic pilgrimage in the field.
+	\item Conducted in-field ethnographic research, including surveys, interviews, group discussions, observational field notes, and recordings.
+\end{itemize}
+
+\section*{RELATED EXPERIENCE}
+\vspace{-3mm}
+\noindent
+{\bf C. Everett Koop Institute}{, Hanover, NH}\hfill {\bf June 2012-June 2013 \\}
+{\sl Personal Assistant to Dr. C. Everett Koop}\\[-6mm]
+\begin{itemize}[leftmargin=5mm] 
+\itemsep -2pt
+	\item Organized speaker events with prominent physicians and policymakers including Dr. Samuel Kessel.
+	\item Answered emails and coordinated meetings for the former surgeon general. 
+	\item Helped coordinate the funerary event at Dartmouth College for Dr. C. Everett Koop.
+\end{itemize}
+
+\noindent
+{\bf National Registry of Emergency Medical Technicians}\hfill {\bf Aug 2010-March 2015 \\}
+{\sl Emergency Medical Technician}\\
+{Multiple Locations including Haiti, California, New Hampshire}\\[-6mm]
+\begin{itemize}[leftmargin=5mm] 
+\itemsep -2pt
+	\item Opened up free clinics in rural areas of Haiti with a U.S. disaster relief team of doctors and nurses after the catastrophic 2010 earthquake.
+	\item Constructed and installed a natural "biodigester" to provide cooking gas for a rural Haitian village.
+	\item Worked over 100+ hours responding and staying on-call as a first responder in New Hampshire.
+	\item Interacted with medical personnel and patients in a U.S. clinic as a clinical medical technician.
+	\item Nationally, California, and New Hampshire certified as an emergency medical technician and basic life support instructor.
+	\item Certified in emergency crisis management by Emergency Management Institute of the U.S. Department of Homeland Security and FEMA.
+\end{itemize}
+                 
+\section*{SOFTWARE EXPERIENCE}
+\noindent
+\begin{tabular}{ | p{40mm} | p{40mm} | p{40mm} | p{40mm} }
+Python & Javascript & HTML5+CSS3 & PostgreSQL\\[2mm]
+MySQL & shell scripting & Nginx+Gunicorn & Java\\[2mm]
+C++ & PHP & Word/Excel/Powerpoint
+\end{tabular}\\[-1mm]
+                 
+\section*{INTERESTS}
+\vspace{-3mm}
+\begin{itemize}[leftmargin=5mm] 
+\itemsep -2pt
+	\item I enjoy contributing to open/free source software projects (e.g. Airflow), conducting biological and ethnographic research, rock climbing, surfing, singing, and volunteering.
+	\item I started coding in Hypercard when I was 10 and donated my proceeds to charities.
+	\item I used to be a member of the Greater Philadelphia Chamber of Commerce.
+\end{itemize}
+
+                
+\end{document}
